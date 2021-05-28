@@ -1,7 +1,7 @@
 
 #include <iostream>
 #include <fstream>
-#include "amber.h"
+#include "core/camera.h"
 
 using namespace std;
 int main(int argc, char** argv)
@@ -24,4 +24,8 @@ int main(int argc, char** argv)
         }
     }
     fout.close();
+
+    using namespace amber;
+
+    
 }
